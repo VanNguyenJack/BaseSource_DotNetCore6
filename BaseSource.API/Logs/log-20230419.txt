@@ -987,3 +987,216 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-04-19 13:35:52.349 +07:00 [DBG] Disposing connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
 2023-04-19 13:35:52.352 +07:00 [DBG] Disposed connection to database '' on server '' (3ms).
 2023-04-19 13:35:52.357 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7073/api/v1/accounts/login application/json 153 - 500 - application/json 5573.5656ms
+2023-04-19 15:18:15.865 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-19 15:18:15.963 +07:00 [DBG] Hosting starting
+2023-04-19 15:18:15.996 +07:00 [INF] User profile is available. Using 'C:\Users\ngodi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-19 15:18:16.016 +07:00 [DBG] Reading data from file 'C:\Users\ngodi\AppData\Local\ASP.NET\DataProtection-Keys\key-01b7928e-e235-4848-9d34-7985466459af.xml'.
+2023-04-19 15:18:16.030 +07:00 [DBG] Found key {01b7928e-e235-4848-9d34-7985466459af}.
+2023-04-19 15:18:16.059 +07:00 [DBG] Considering key {01b7928e-e235-4848-9d34-7985466459af} with expiration date 2023-05-29 03:46:46Z as default key.
+2023-04-19 15:18:16.069 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-19 15:18:16.075 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-19 15:18:16.089 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-19 15:18:16.108 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-19 15:18:16.120 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-19 15:18:16.125 +07:00 [DBG] Using key {01b7928e-e235-4848-9d34-7985466459af} as the default key.
+2023-04-19 15:18:16.127 +07:00 [DBG] Key ring with default key {01b7928e-e235-4848-9d34-7985466459af} was loaded during application startup.
+2023-04-19 15:18:16.236 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-19 15:18:16.424 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: EE8D2AD23DEEE34858DF0BB2C25F10466BEA3BEF)
+2023-04-19 15:18:16.487 +07:00 [INF] Now listening on: https://localhost:7073
+2023-04-19 15:18:16.489 +07:00 [INF] Now listening on: http://localhost:5061
+2023-04-19 15:18:16.490 +07:00 [DBG] Loaded hosting startup assembly BaseSource.API
+2023-04-19 15:18:16.492 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-19 15:18:16.493 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-19 15:18:16.496 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-19 15:18:16.497 +07:00 [INF] Hosting environment: Development
+2023-04-19 15:18:16.498 +07:00 [INF] Content root path: C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.API
+2023-04-19 15:18:16.501 +07:00 [DBG] Hosting started
+2023-04-19 15:18:16.929 +07:00 [DBG] Connection id "0HMQ0LQGCOK4G" received FIN.
+2023-04-19 15:18:16.929 +07:00 [DBG] Connection id "0HMQ0LQGCOK4F" received FIN.
+2023-04-19 15:18:16.940 +07:00 [DBG] Connection id "0HMQ0LQGCOK4F" accepted.
+2023-04-19 15:18:16.940 +07:00 [DBG] Connection id "0HMQ0LQGCOK4G" accepted.
+2023-04-19 15:18:16.943 +07:00 [DBG] Connection id "0HMQ0LQGCOK4G" started.
+2023-04-19 15:18:16.943 +07:00 [DBG] Connection id "0HMQ0LQGCOK4F" started.
+2023-04-19 15:18:16.967 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-19 15:18:16.968 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-19 15:18:17.010 +07:00 [DBG] Connection id "0HMQ0LQGCOK4G" stopped.
+2023-04-19 15:18:17.010 +07:00 [DBG] Connection id "0HMQ0LQGCOK4F" stopped.
+2023-04-19 15:18:17.019 +07:00 [DBG] Connection id "0HMQ0LQGCOK4G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-19 15:18:17.020 +07:00 [DBG] Connection id "0HMQ0LQGCOK4F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-19 15:18:17.134 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" accepted.
+2023-04-19 15:18:17.174 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" started.
+2023-04-19 15:18:17.389 +07:00 [DBG] Connection 0HMQ0LQGCOK4H established using the following protocol: "Tls12"
+2023-04-19 15:18:17.602 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/index.html - -
+2023-04-19 15:18:17.668 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-19 15:18:18.091 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-19 15:18:18.236 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-19 15:18:18.242 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - -
+2023-04-19 15:18:18.247 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/index.html - - - 200 - text/html;charset=utf-8 651.8080ms
+2023-04-19 15:18:18.258 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 15.9162ms
+2023-04-19 15:18:18.724 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_vs/browserLink - -
+2023-04-19 15:18:18.768 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.0206ms
+2023-04-19 15:18:19.215 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - -
+2023-04-19 15:18:19.506 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.6873ms
+2023-04-19 15:18:30.346 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7073/api/v1/accounts/login application/json 100
+2023-04-19 15:18:30.355 +07:00 [DBG] The request has an origin header: 'https://localhost:7073'.
+2023-04-19 15:18:30.362 +07:00 [INF] CORS policy execution successful.
+2023-04-19 15:18:30.368 +07:00 [DBG] POST requests are not supported
+2023-04-19 15:18:30.417 +07:00 [DBG] 1 candidate(s) found for the request path '/api/v1/accounts/login'
+2023-04-19 15:18:30.428 +07:00 [DBG] Endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)' with route pattern 'api/v{version:apiVersion}/accounts/login' is valid for the request path '/api/v1/accounts/login'
+2023-04-19 15:18:30.441 +07:00 [DBG] Request matched endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:18:30.474 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-19 15:18:30.490 +07:00 [INF] Executing endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:18:30.529 +07:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[BaseSource.Application.Wrappers.Result`1[BaseSource.Domain.DTOs.Identity.TokenResponse]] LoginAsync(BaseSource.Application.Features.Users.Commands.LoginCommand) on controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API).
+2023-04-19 15:18:30.534 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-19 15:18:30.535 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-19 15:18:30.537 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-04-19 15:18:30.541 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-19 15:18:30.543 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-04-19 15:18:30.546 +07:00 [DBG] Executing controller factory for controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API)
+2023-04-19 15:18:30.550 +07:00 [DBG] Executed controller factory for controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API)
+2023-04-19 15:18:30.557 +07:00 [DBG] Attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' ...
+2023-04-19 15:18:30.563 +07:00 [DBG] Attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' using the name '' in request data ...
+2023-04-19 15:18:30.567 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-04-19 15:18:30.579 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H", Request id "0HMQ0LQGCOK4H:00000009": started reading request body.
+2023-04-19 15:18:30.582 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H", Request id "0HMQ0LQGCOK4H:00000009": done reading request body.
+2023-04-19 15:18:30.609 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseSource.Application.Features.Users.Commands.LoginCommand'
+2023-04-19 15:18:30.612 +07:00 [DBG] Done attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:18:30.615 +07:00 [DBG] Done attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:18:30.617 +07:00 [DBG] Attempting to validate the bound parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' ...
+2023-04-19 15:18:30.632 +07:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:18:31.259 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-04-19 15:18:31.613 +07:00 [DBG] Entity Framework Core 7.0.5 initialized 'BaseSourceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.5' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2023-04-19 15:18:31.626 +07:00 [DBG] Creating DbConnection.
+2023-04-19 15:18:31.675 +07:00 [DBG] Created DbConnection. (40ms).
+2023-04-19 15:18:31.682 +07:00 [DBG] Opening connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:18:31.994 +07:00 [DBG] Opened connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:18:31.999 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-04-19 15:18:32.013 +07:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-04-19 15:18:32.027 +07:00 [INF] Executed action BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API) in 1476.8901ms
+2023-04-19 15:18:32.030 +07:00 [INF] Executed endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:18:32.131 +07:00 [ERR] {"message":[{"Code":"InternalServerError","Text":"Error constructing handler for request of type MediatR.IRequestHandler`2[BaseSource.Application.Features.Users.Commands.LoginCommand,BaseSource.Application.Wrappers.Result`1[BaseSource.Domain.DTOs.Identity.TokenResponse]]. Register your handlers with the container. See the samples in GitHub for examples.","Type":69}]}
+2023-04-19 15:18:32.141 +07:00 [DBG] Disposing transaction.
+2023-04-19 15:18:32.145 +07:00 [DBG] Closing connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:18:32.161 +07:00 [DBG] Closed connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM' (8ms).
+2023-04-19 15:18:32.165 +07:00 [DBG] 'BaseSourceDbContext' disposed.
+2023-04-19 15:18:32.168 +07:00 [DBG] Disposing connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:18:32.174 +07:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2023-04-19 15:18:32.179 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7073/api/v1/accounts/login application/json 100 - 500 - application/json 1833.1824ms
+2023-04-19 15:20:42.664 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" is closing.
+2023-04-19 15:20:42.670 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" is closed. The last processed stream ID was 9.
+2023-04-19 15:20:42.673 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" received FIN.
+2023-04-19 15:20:42.675 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" stopped.
+2023-04-19 15:20:42.676 +07:00 [DBG] Connection id "0HMQ0LQGCOK4H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-19 15:22:28.391 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-04-19 15:22:29.991 +07:00 [DBG] Hosting starting
+2023-04-19 15:22:30.077 +07:00 [INF] User profile is available. Using 'C:\Users\ngodi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-19 15:22:30.138 +07:00 [DBG] Reading data from file 'C:\Users\ngodi\AppData\Local\ASP.NET\DataProtection-Keys\key-01b7928e-e235-4848-9d34-7985466459af.xml'.
+2023-04-19 15:22:30.151 +07:00 [DBG] Found key {01b7928e-e235-4848-9d34-7985466459af}.
+2023-04-19 15:22:30.165 +07:00 [DBG] Considering key {01b7928e-e235-4848-9d34-7985466459af} with expiration date 2023-05-29 03:46:46Z as default key.
+2023-04-19 15:22:30.168 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-19 15:22:30.170 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-04-19 15:22:30.175 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-04-19 15:22:30.182 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-04-19 15:22:30.187 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-04-19 15:22:30.192 +07:00 [DBG] Using key {01b7928e-e235-4848-9d34-7985466459af} as the default key.
+2023-04-19 15:22:30.194 +07:00 [DBG] Key ring with default key {01b7928e-e235-4848-9d34-7985466459af} was loaded during application startup.
+2023-04-19 15:22:30.395 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-04-19 15:22:30.697 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: EE8D2AD23DEEE34858DF0BB2C25F10466BEA3BEF)
+2023-04-19 15:22:30.772 +07:00 [INF] Now listening on: https://localhost:7073
+2023-04-19 15:22:30.773 +07:00 [INF] Now listening on: http://localhost:5061
+2023-04-19 15:22:30.774 +07:00 [DBG] Loaded hosting startup assembly BaseSource.API
+2023-04-19 15:22:30.776 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-04-19 15:22:30.777 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-04-19 15:22:30.779 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-19 15:22:30.780 +07:00 [INF] Hosting environment: Development
+2023-04-19 15:22:30.781 +07:00 [INF] Content root path: C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.API
+2023-04-19 15:22:30.783 +07:00 [DBG] Hosting started
+2023-04-19 15:22:30.843 +07:00 [DBG] Connection id "0HMQ0LSS267J3" accepted.
+2023-04-19 15:22:30.843 +07:00 [DBG] Connection id "0HMQ0LSS267J4" accepted.
+2023-04-19 15:22:30.847 +07:00 [DBG] Connection id "0HMQ0LSS267J4" started.
+2023-04-19 15:22:30.847 +07:00 [DBG] Connection id "0HMQ0LSS267J3" started.
+2023-04-19 15:22:30.877 +07:00 [DBG] Connection id "0HMQ0LSS267J4" received FIN.
+2023-04-19 15:22:30.877 +07:00 [DBG] Connection id "0HMQ0LSS267J3" received FIN.
+2023-04-19 15:22:30.906 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-19 15:22:30.906 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-04-19 15:22:30.978 +07:00 [DBG] Connection id "0HMQ0LSS267J3" stopped.
+2023-04-19 15:22:30.978 +07:00 [DBG] Connection id "0HMQ0LSS267J4" stopped.
+2023-04-19 15:22:31.035 +07:00 [DBG] Connection id "0HMQ0LSS267J3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-19 15:22:31.057 +07:00 [DBG] Connection id "0HMQ0LSS267J4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-04-19 15:22:31.331 +07:00 [DBG] Connection id "0HMQ0LSS267J5" accepted.
+2023-04-19 15:22:31.400 +07:00 [DBG] Connection id "0HMQ0LSS267J5" started.
+2023-04-19 15:22:31.495 +07:00 [DBG] Connection 0HMQ0LSS267J5 established using the following protocol: "Tls12"
+2023-04-19 15:22:31.639 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/index.html - -
+2023-04-19 15:22:31.712 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-04-19 15:22:32.164 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-04-19 15:22:32.433 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - -
+2023-04-19 15:22:32.439 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-04-19 15:22:32.447 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 12.2573ms
+2023-04-19 15:22:32.449 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/index.html - - - 200 - text/html;charset=utf-8 819.2596ms
+2023-04-19 15:22:32.822 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/_vs/browserLink - -
+2023-04-19 15:22:32.856 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 33.6623ms
+2023-04-19 15:22:33.264 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - -
+2023-04-19 15:22:33.665 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7073/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 402.3168ms
+2023-04-19 15:22:37.333 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7073/api/v1/accounts/login application/json 100
+2023-04-19 15:22:37.339 +07:00 [DBG] The request has an origin header: 'https://localhost:7073'.
+2023-04-19 15:22:37.341 +07:00 [INF] CORS policy execution successful.
+2023-04-19 15:22:37.348 +07:00 [DBG] POST requests are not supported
+2023-04-19 15:22:37.421 +07:00 [DBG] 1 candidate(s) found for the request path '/api/v1/accounts/login'
+2023-04-19 15:22:37.439 +07:00 [DBG] Endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)' with route pattern 'api/v{version:apiVersion}/accounts/login' is valid for the request path '/api/v1/accounts/login'
+2023-04-19 15:22:37.456 +07:00 [DBG] Request matched endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:22:37.565 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-04-19 15:22:37.663 +07:00 [INF] Executing endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:22:37.750 +07:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[BaseSource.Application.Wrappers.Result`1[BaseSource.Domain.DTOs.Identity.TokenResponse]] LoginAsync(BaseSource.Application.Features.Users.Commands.LoginCommand) on controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API).
+2023-04-19 15:22:37.756 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-04-19 15:22:37.757 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-04-19 15:22:37.760 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-04-19 15:22:37.763 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-04-19 15:22:37.765 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2023-04-19 15:22:37.768 +07:00 [DBG] Executing controller factory for controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API)
+2023-04-19 15:22:37.774 +07:00 [DBG] Executed controller factory for controller BaseSource.API.Controllers.v1.AccountController (BaseSource.API)
+2023-04-19 15:22:37.783 +07:00 [DBG] Attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' ...
+2023-04-19 15:22:37.788 +07:00 [DBG] Attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' using the name '' in request data ...
+2023-04-19 15:22:37.790 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-04-19 15:22:37.803 +07:00 [DBG] Connection id "0HMQ0LSS267J5", Request id "0HMQ0LSS267J5:00000009": started reading request body.
+2023-04-19 15:22:37.805 +07:00 [DBG] Connection id "0HMQ0LSS267J5", Request id "0HMQ0LSS267J5:00000009": done reading request body.
+2023-04-19 15:22:37.833 +07:00 [DBG] JSON input formatter succeeded, deserializing to type 'BaseSource.Application.Features.Users.Commands.LoginCommand'
+2023-04-19 15:22:37.835 +07:00 [DBG] Done attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:22:37.837 +07:00 [DBG] Done attempting to bind parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:22:37.838 +07:00 [DBG] Attempting to validate the bound parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand' ...
+2023-04-19 15:22:37.852 +07:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'BaseSource.Application.Features.Users.Commands.LoginCommand'.
+2023-04-19 15:23:02.546 +07:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-04-19 15:23:03.112 +07:00 [DBG] Entity Framework Core 7.0.5 initialized 'BaseSourceDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.5' with options: SensitiveDataLoggingEnabled DetailedErrorsEnabled 
+2023-04-19 15:23:03.130 +07:00 [DBG] Creating DbConnection.
+2023-04-19 15:23:03.203 +07:00 [DBG] Created DbConnection. (69ms).
+2023-04-19 15:23:03.217 +07:00 [DBG] Opening connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:23:03.813 +07:00 [DBG] Opened connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:23:03.822 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2023-04-19 15:23:03.846 +07:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2023-04-19 15:23:27.901 +07:00 [INF] Executed action BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API) in 50125.9811ms
+2023-04-19 15:23:27.910 +07:00 [INF] Executed endpoint 'BaseSource.API.Controllers.v1.AccountController.LoginAsync (BaseSource.API)'
+2023-04-19 15:23:33.428 +07:00 [ERR] {"message":[{"Code":"InternalServerError","Text":"Error constructing handler for request of type MediatR.IRequestHandler`2[BaseSource.Application.Features.Users.Commands.LoginCommand,BaseSource.Application.Wrappers.Result`1[BaseSource.Domain.DTOs.Identity.TokenResponse]]. Register your handlers with the container. See the samples in GitHub for examples.","Type":69}]}
+2023-04-19 15:23:35.911 +07:00 [DBG] Disposing transaction.
+2023-04-19 15:23:35.919 +07:00 [DBG] Closing connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:23:35.946 +07:00 [DBG] Closed connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM' (19ms).
+2023-04-19 15:23:35.952 +07:00 [DBG] 'BaseSourceDbContext' disposed.
+2023-04-19 15:23:35.959 +07:00 [DBG] Disposing connection to database 'BaseSourceDB' on server 'DESKTOP-1P1MAVM'.
+2023-04-19 15:23:35.965 +07:00 [DBG] Disposed connection to database '' on server '' (6ms).
+2023-04-19 15:23:36.915 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7073/api/v1/accounts/login application/json 100 - 500 - application/json 59582.0498ms

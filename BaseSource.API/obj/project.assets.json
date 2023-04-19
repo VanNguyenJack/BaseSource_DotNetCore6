@@ -7910,6 +7910,7 @@
       "BaseSource.Application >= 1.0.0",
       "BaseSource.Domain >= 1.0.0",
       "MediatR >= 9.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.16",
       "Microsoft.AspNetCore.Localization >= 2.2.0",
       "Microsoft.AspNetCore.Localization.Routing >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.0.0",
@@ -7981,6 +7982,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[9.0.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[6.0.16, )"
           },
           "Microsoft.AspNetCore.Localization": {
             "target": "Package",

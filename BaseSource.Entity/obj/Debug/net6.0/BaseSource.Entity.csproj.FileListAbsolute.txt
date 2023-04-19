@@ -1,0 +1,17 @@
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Entity.deps.json
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Entity.runtimeconfig.json
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Entity.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Entity.pdb
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Domain.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\bin\Debug\net6.0\BaseSource.Domain.pdb
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.csproj.AssemblyReference.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.AssemblyInfoInputs.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.AssemblyInfo.cs
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.csproj.CopyComplete
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\refint\BaseSource.Entity.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.pdb
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\BaseSource.Entity.genruntimeconfig.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Entity\obj\Debug\net6.0\ref\BaseSource.Entity.dll

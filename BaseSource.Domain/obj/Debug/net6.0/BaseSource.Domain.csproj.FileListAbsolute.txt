@@ -1,0 +1,12 @@
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\bin\Debug\net6.0\BaseSource.Domain.deps.json
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\bin\Debug\net6.0\BaseSource.Domain.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\bin\Debug\net6.0\BaseSource.Domain.pdb
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.csproj.AssemblyReference.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.AssemblyInfoInputs.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.AssemblyInfo.cs
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\refint\BaseSource.Domain.dll
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\BaseSource.Domain.pdb
+C:\Users\ngodi\source\repos\BaseSource.API\BaseSource.Domain\obj\Debug\net6.0\ref\BaseSource.Domain.dll

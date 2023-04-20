@@ -16,11 +16,23 @@ using System;
 using System.Globalization;
 using System.Linq;
 using BaseSource.Application.Swagger;
+using BaseSource.Domain.Shared;
+using BaseSource.Application.Services;
 
 namespace BaseSource.API.Extensions
 {
     public static class ServiceCollectionExtensions
     {
+        public static void AddSharedInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddSingleton<IUriService>(o =>
+            {
+                var accessor = o.GetRequiredService<IHttpContextAccessor>();
+                var request = accessor.HttpContext.Request;
+                var uri = string.Concat(request.Scheme, "://", request.Host.ToUriComponent());
+                return new UriService(uri);
+            });
+        }
         internal static IServiceCollection AddCurrentUserService(this IServiceCollection services)
         {
             services.AddHttpContextAccessor();

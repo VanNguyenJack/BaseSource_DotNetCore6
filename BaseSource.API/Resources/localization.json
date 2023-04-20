@@ -1,0 +1,422 @@
+[
+  {
+    "Key": "UserNotFound",
+    "LocalizedValue": {
+      "en-US": "User '{0}' is not found."
+    }
+  },
+  {
+    "Key": "AccountNotConfirmed",
+    "LocalizedValue": {
+      "en-US": "Account Not Confirmed for '{0}'."
+    }
+  },
+  {
+    "Key": "AccountEmailNotConfirmed",
+    "LocalizedValue": {
+      "en-US": "Account's email '{0}' has not been confirmed."
+    }
+  },
+  {
+    "Key": "AccountPhoneNumberNotConfirmed",
+    "LocalizedValue": {
+      "en-US": "Account's phone number '{0}' has not been confirmed."
+    }
+  },
+  {
+    "Key": "AccountInactive",
+    "LocalizedValue": {
+      "en-US": "Account for '{0}' is not active. Please contact the Administrator."
+    }
+  },
+  {
+    "Key": "InvalidCredentials",
+    "LocalizedValue": {
+      "en-US": "Invalid Credentials for '{0}'."
+    }
+  },
+  {
+    "Key": "NoAccount",
+    "LocalizedValue": {
+      "en-US": "No Accounts Registered with '{0}'."
+    }
+  },
+  {
+    "Key": "InvalidRefreshToken",
+    "LocalizedValue": {
+      "en-US": "Invalid Refresh Token for '{0}'."
+    }
+  },
+  {
+    "Key": "ExpiredRefreshToken",
+    "LocalizedValue": {
+      "en-US": "Refresh Token for '{0}' has expired."
+    }
+  },
+  {
+    "Key": "UsernameExists",
+    "LocalizedValue": {
+      "en-US": "Username '{0}' is already taken."
+    }
+  },
+  {
+    "Key": "EmailRegistered",
+    "LocalizedValue": {
+      "en-US": "Email '{0}' is already registered."
+    }
+  },
+  {
+    "Key": "PhoneNumberRegistered",
+    "LocalizedValue": {
+      "en-US": "Phone number '{0}' is already registered."
+    }
+  },
+  {
+    "Key": "ErrorProcessing",
+    "LocalizedValue": {
+      "en-US": "Processing error. Please try again."
+    }
+  },
+  {
+    "Key": "AnErrorOccurWithDetail",
+    "LocalizedValue": {
+      "en-US": "There is an error with detail : '{0}'"
+    }
+  },
+  {
+    "Key": "Authenticated",
+    "LocalizedValue": {
+      "en-US": "Authenticated: '{0}'"
+    }
+  },
+  {
+    "Key": "InvalidFacebookAccessToken",
+    "LocalizedValue": {
+      "en-US": "Invalid Facebook Access Token."
+    }
+  },
+  {
+    "Key": "InvalidGoogleAccessToken",
+    "LocalizedValue": {
+      "en-US": "Invalid Google Access Token."
+    }
+  },
+  {
+    "Key": "ResetPasswordError",
+    "LocalizedValue": {
+      "en-US": "Error occured while resetting the password."
+    }
+  },
+  {
+    "Key": "ConfirmRegister",
+    "LocalizedValue": {
+      "en-US": " <table border='0' cellpadding='0' cellspacing='0' width='100%' style='max-width: 900px;'> <tr><td bgcolor='#ffffff' align='center' valign='top' style='padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 200; letter-spacing: 4px; line-height: 40px;'><h1 style='font-size: 40px; font-weight: 200; margin: 2;'>Welcome!</h1></td></tr> <tr> <td align='left'bgcolor='#ffffff' style='padding: 0px 30px 20px 30px;'><p style='margin: 0; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'>We're excited to have you get started. First, you need to confirm your account. Just press the button below.</p></td></tr><tr><td bgcolor='#ffffff' align='left'><table width='100%' border='0' cellspacing='0' cellpadding='0'><tr><td bgcolor='#ffffff' align='center' style='padding: 20px 30px 60px 30px;'><table border='0' cellspacing='0' cellpadding='0'><tr><td align='center' style='border-radius: 3px;' bgcolor='#FFA73B'><a href='{0}' target='_blank' style='font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #FFA73B; display: inline-block;'>Confirm Account</a></td></tr></table></td></tr></table></td></tr><tr><td bgcolor='#ffffff' align='left' style='padding: 0px 30px 0px 30px; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><p style='margin: 0;'>If that doesn't work, copy and paste the following link in your browser:</p></td></tr><tr><td bgcolor='#ffffff' align='left' style='padding: 20px 30px 20px 30px; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 200; line-height: 20px;'> <p><a style ='word-break: break-all;color: #FFA73B;'href='{0}'target='_blank'>{0} </a></p></td></tr> <tr> <td bgcolor='#ffffff' align='left' style='padding: 0px 30px 20px 30px; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><p style='margin: 0;'>If you have any questions, just reply to this email—we're always happy to help out.</p> </td> </tr><tr><td bgcolor='#ffffff' align='left' style='padding: 0px 30px 40px 30px; border-radius: 0px 0px 4px 4px; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><p style='margin: 0;'>Cheers,<br>Template</p></td></tr><tr><td bgcolor='#f4f4f4' align='center' style='padding: 30px 10px 0px 10px;'><table border='0' cellpadding='0' cellspacing='0' width='100%' style='max-width: 600px;'><tr><td bgcolor='#FFECD1' align='center' style='padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #666666; font-family: Lato, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;'><h2 style='font-size: 20px; font-weight: 400; color: #111111; margin: 0;'>Need more help?</h2> <p style='margin: 0;'><a href='{1}' target='_blank' style='color: #FFA73B;'>We're here to help you out</a></p></td></tr></table></td></tr></table>"
+    }
+  },
+  {
+    "Key": "ConfirmRegistrationSubject",
+    "LocalizedValue": {
+      "en-US": "Template - Confirm Registration"
+    }
+  },
+  {
+    "Key": "Registered",
+    "LocalizedValue": {
+      "en-US": "User Registered. Please confirm your account by visiting this URL {0}."
+    }
+  },
+  {
+    "Key": "ConfirmingError",
+    "LocalizedValue": {
+      "en-US": "An error occured while confirming '{0}'."
+    }
+  },
+  {
+    "Key": "InvalidEmailConfirmationToken",
+    "LocalizedValue": {
+      "en-US": "Confirmation token for email '{0}' is invalid."
+    }
+  },
+  {
+    "Key": "EmailConfirmed",
+    "LocalizedValue": {
+      "en-US": "Account Confirmed for '{0}'. You can now use the /api/identity/authenticate endpoint."
+    }
+  },
+  {
+    "Key": "LogOut",
+    "LocalizedValue": {
+      "en-US": "Log Out"
+    }
+  },
+  {
+    "Key": "NotFound",
+    "LocalizedValue": {
+      "en-US": "{0} ({1}) is not found."
+    }
+  },
+  {
+    "Key": "ResetPassword",
+    "LocalizedValue": {
+      "en-US": "Reset Password"
+    }
+  },
+  {
+    "Key": "ResetPasswordMail",
+    "LocalizedValue": {
+      "en-US": "Please reset your password by <a href='{0}'> clicking here</a>."
+    }
+  },
+  {
+    "Key": "ResetPasswordSuccess",
+    "LocalizedValue": {
+      "en-US": "Password Reset Mail has been sent to your authorized email."
+    }
+  },
+  {
+    "Key": "ResetPasswordForUser",
+    "LocalizedValue": {
+      "en-US": "Your new password is <span style='font-size: 20px; font-weight: bold;'>{0}</span>"
+    }
+  },
+  {
+    "Key": "PropertyRequired",
+    "LocalizedValue": {
+      "en-US": "{PropertyName} is required."
+    }
+  },
+  {
+    "Key": "PropertyNotExceedLength",
+    "LocalizedValue": {
+      "en-US": "{0} must not exceed {1} characters."
+    }
+  },
+  {
+    "Key": "NameExists",
+    "LocalizedValue": {
+      "en-US": "The {0} with the same name already exists."
+    }
+  },
+  {
+    "Key": "NotExists",
+    "LocalizedValue": {
+      "en-US": "The {0} does not exist."
+    }
+  },
+  {
+    "Key": "InvalidEmployeeLinkUser",
+    "LocalizedValue": {
+      "en-US": "A employee must link to an existing user."
+    }
+  },
+  {
+    "Key": "InvalidTenantAlreadyExists",
+    "LocalizedValue": {
+      "en-US": "A service must belong to an existing Tenant."
+    }
+  },
+  {
+    "Key": "UserFirstNameEmpty",
+    "LocalizedValue": {
+      "en-US": "User first name is required."
+    }
+  },
+  {
+    "Key": "UserLastNameEmpty",
+    "LocalizedValue": {
+      "en-US": "User last name is required."
+    }
+  },
+  {
+    "Key": "UserEmailEmpty",
+    "LocalizedValue": {
+      "en-US": "User email is required."
+    }
+  },
+  {
+    "Key": "UserEmailInvalidFormat",
+    "LocalizedValue": {
+      "en-US": "User email '{0}' is invalid format."
+    }
+  },
+  {
+    "Key": "UserEmailNotUnique",
+    "LocalizedValue": {
+      "en-US": "User with email '{0}' already exists."
+    }
+  },
+  {
+    "Key": "UserUserNameEmpty",
+    "LocalizedValue": {
+      "en-US": "User name is required."
+    }
+  },
+  {
+    "Key": "UserUserNameNotReachMinLength",
+    "LocalizedValue": {
+      "en-US": "User name must at least {0} characters."
+    }
+  },
+  {
+    "Key": "UserUserNameNotUnique",
+    "LocalizedValue": {
+      "en-US": "User with name '{0}' already exists."
+    }
+  },
+  {
+    "Key": "UserPhoneNumberNotUnique",
+    "LocalizedValue": {
+      "en-US": "User with phone number '{0}' already exists."
+    }
+  },
+  {
+    "Key": "UserPasswordEmpty",
+    "LocalizedValue": {
+      "en-US": "User password is required."
+    }
+  },
+  {
+    "Key": "UserPasswordNotReachMinLength",
+    "LocalizedValue": {
+      "en-US": "User password must at least {0} characters."
+    }
+  },
+  {
+    "Key": "UserConfirmPasswordNotMatch",
+    "LocalizedValue": {
+      "en-US": "User confirm password not match."
+    }
+  },
+  {
+    "Key": "UserCurrentPasswordEmpty",
+    "LocalizedValue": {
+      "en-US": "User current password is required."
+    }
+  },
+  {
+    "Key": "UserNewPasswordEmpty",
+    "LocalizedValue": {
+      "en-US": "User new password is required."
+    }
+  },
+  {
+    "Key": "UserNewPasswordNotReachMinLength",
+    "LocalizedValue": {
+      "en-US": "User new password must at least {0} characters."
+    }
+  },
+  {
+    "Key": "UserConfirmNewPasswordNotMatch",
+    "LocalizedValue": {
+      "en-US": "User confirm new password not match."
+    }
+  },
+  {
+    "Key": "UserIdEmpty",
+    "LocalizedValue": {
+      "en-US": "User Id is required."
+    }
+  },
+  {
+    "Key": "AdminPasswordEmpty",
+    "LocalizedValue": {
+      "en-US": "Admin Password is required."
+    }
+  },
+  {
+    "Key": "TenantNotExists",
+    "LocalizedValue": {
+      "en-US": "The Tenant '{0}' not exists"
+    }
+  },
+  {
+    "Key": "UserNotExists",
+    "LocalizedValue": {
+      "en-US": "User '{0}' does not exist."
+    }
+  },
+  {
+    "Key": "RoleNameEmpty",
+    "LocalizedValue": {
+      "en-US": "Role name is required."
+    }
+  },
+  {
+    "Key": "RoleNameNotUnique",
+    "LocalizedValue": {
+      "en-US": "Role name '{0}' is not unique."
+    }
+  },
+  {
+    "Key": "DefaultRoleCanNotBeUpdatedOrDeleted",
+    "LocalizedValue": {
+      "en-US": "Default role can not be updated or deleted."
+    }
+  },
+  {
+    "Key": "InvalidOrderSpecified",
+    "LocalizedValue": {
+      "en-US": "'{0}' is invalid. A valid order specification is a comma-separated list of valid field names (optionally followed by asc/desc for the direction)."
+    }
+  },
+  {
+    "Key": "ColumnNotSupportedForGrouping",
+    "LocalizedValue": {
+      "en-US": "The column '{0}' is not supported for grouping."
+    }
+  },
+  {
+    "Key": "GroupingByMultipleColumnsNotSupported",
+    "LocalizedValue": {
+      "en-US": "Grouping by multiple columns is not supported."
+    }
+  },
+  {
+    "Key": "Not_Update_SPC_Admin_Fee",
+    "LocalizedValue": {
+      "en-US": "Unable to update SPC Admin Fee."
+    }
+  },
+  {
+    "Key": "Not_Create_Web_Customers",
+    "LocalizedValue": {
+      "en-US": "Can't create Web customer."
+    }
+  },
+  {
+    "Key": "EDI_Form_Not_Found",
+    "LocalizedValue": {
+      "en-US": "EDI form #{0} is expected but not found."
+    }
+  },
+  {
+    "Key": "Destination_Not_Found",
+    "LocalizedValue": {
+      "en-US": "Destination #{0} is expected but not found."
+    }
+  },
+  {
+    "Key": "Minimum_Cube_Not_Found",
+    "LocalizedValue": {
+      "en-US": "Minimum Cube #{0} is expected but not found."
+    }
+  },
+  {
+    "Key": "Batch_Not_Found",
+    "LocalizedValue": {
+      "en-US": "Batch #{0} is expected but not found."
+    }
+  },
+  {
+    "Key": "LoadingBL",
+    "LocalizedValue": {
+      "en-US": "LOADING BL {0} OF {1}"
+    }
+  },
+  {
+    "Key": "BatchTotalBuildNotClear",
+    "LocalizedValue": {
+      "en-US": "Batch contains {0} bills which have not been cleared for routing."
+    }
+  }
+]

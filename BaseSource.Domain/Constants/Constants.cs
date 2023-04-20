@@ -64,4 +64,14 @@ namespace BaseSource.Domain.Constants
         public const char UnderScore = '_';
         public const char Zero = '0';
     }
+
+    public static class Filter_Paramater
+    {
+        public const int PageSize = 10;
+        public const string UriGroupBy = "groupBy";
+        public const string UriOrderBy = "orderBy";
+        public const string UriPageNumber = "pageNumber";
+        public const string UriPageSize = "pageSize";
+        public const string UriSearchText = "searchText";
+    }
 }

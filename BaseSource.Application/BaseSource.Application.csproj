@@ -47,8 +47,4 @@
     <ProjectReference Include="..\BaseSource.Entity\BaseSource.Entity.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Users\Queries\" />
-  </ItemGroup>
-
 </Project>

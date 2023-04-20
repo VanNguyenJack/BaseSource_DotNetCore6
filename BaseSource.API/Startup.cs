@@ -41,6 +41,7 @@ namespace BaseSource.API
             services.ConfigurationLocalization(Configuration);
             services.AddEssentials();
             services.AddContextInfrastructure(Configuration);
+            services.AddSharedInfrastructure(Configuration);
 
             services.AddControllers();
 

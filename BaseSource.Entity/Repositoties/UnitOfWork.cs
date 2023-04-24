@@ -23,13 +23,15 @@ namespace BaseSource.Entity.Repositoties
 
         public UnitOfWork(BaseSourceDbContext dbContext,
             IConfiguration configuration,
-            IAccountRepository accountRepository
+            IAccountRepository accountRepository,
+            IVehicleRepository vehicleRepository
         )
         {
             _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));
             _transaction = _dbContext.Database.BeginTransaction();
             _configuration = configuration;
             Accounts = accountRepository;
+            Vehicles = vehicleRepository;
         }
 
         public async Task<int> Commit(CancellationToken cancellationToken)
@@ -187,6 +189,7 @@ namespace BaseSource.Entity.Repositoties
 
         #region Repository
         public IAccountRepository Accounts { get; }
+        public IVehicleRepository Vehicles { get; }
         #endregion
     }
 }

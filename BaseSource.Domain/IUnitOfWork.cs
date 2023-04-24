@@ -21,6 +21,7 @@ namespace BaseSource.Domain
 
         #region Repository
         IAccountRepository Accounts { get; }
+        IVehicleRepository Vehicles { get; }
         #endregion
     }
 }

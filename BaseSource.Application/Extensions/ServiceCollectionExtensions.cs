@@ -5,13 +5,16 @@ using System.Reflection;
 using System.Text;
 using BaseSource.Application.Events;
 using BaseSource.Application.Mappings;
+using BaseSource.Application.PipelineBahaviors;
 using BaseSource.Application.Services.Authentication;
+using BaseSource.Application.Services.GlbAlert;
 using BaseSource.Application.Settings;
 using BaseSource.Application.Utilities;
 using BaseSource.Application.Wrappers;
 using BaseSource.Domain;
 using BaseSource.Domain.Contexts;
 using BaseSource.Domain.Repositories;
+using BaseSource.Domain.Services;
 using BaseSource.Entity.DbContexts;
 using BaseSource.Entity.Repositoties;
 using FluentValidation;
@@ -34,9 +37,12 @@ namespace BaseSource.Application.Extensions
             services.ConfigureMapster();
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(LoggingBehaviour<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(RequestPerformanceBehaviour<,>));
 
             services.AddTransient<IAuthenticationService, AuthenticationService>();
-
+            services.AddTransient<IGlbAlertService, GlbAlertService>();
             return services;
         }
         public static void AddPersistenceContexts(this IServiceCollection services)
@@ -61,6 +67,7 @@ namespace BaseSource.Application.Extensions
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAccountRepository, AccountRepository>();
+            services.AddScoped<IVehicleRepository, VehicleRepository>();
         }
 
         public static void AddContextInfrastructure(this IServiceCollection services, IConfiguration configuration)

@@ -44,6 +44,5 @@ namespace BaseSource.API.Controllers.v1
             return await Mediator.Send(new DeleteVehicleItemCommand { DeleteVehicleId = vehicleId });
         }
         #endregion
-
     }
 }

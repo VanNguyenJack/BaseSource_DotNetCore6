@@ -62,6 +62,4 @@ public partial class BaseSourceDbContext : DbContext, IApplicationDbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-
-    //test revert
 }
